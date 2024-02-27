@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(128, 101, 66);
+    font-size: x-large;
+    line-height: 0.6.rem;
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+@media (max-width: 1200px) {
+    #h2 {
+        color: rgb(2, 2, 59);
+        font-size: xx-large;
+    }
+
+    body {
+        background-color: rgb(25, 137, 132);
+        font-size: small;
+        color: white;
+        
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1700px) {
+    body {
+        background-color: rgb(19, 86, 19);
+        color: rgb(216, 65, 10);
+        font-size: medium;
+    }
+     
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
+#outputItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    margin: 20px 65px;
+    font-size: 20px;
+    
+}
+
+.list {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+}
+
+.box1 {
+    margin: 40px 65px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.box2 {
+
+    margin: 0px 75px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
